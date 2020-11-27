@@ -135,17 +135,17 @@
                   <e p="books.component.spec.ts" t="Include" />
                   <e p="books.component.ts" t="Include" />
                 </e>
+                <e p="nav-menu" t="Include">
+                  <e p="nav-menu.component.css" t="Include" />
+                  <e p="nav-menu.component.html" t="Include" />
+                  <e p="nav-menu.component.ts" t="Include" />
+                </e>
               </e>
               <e p="models" t="Include">
                 <e p="book.create.ts" t="Include" />
                 <e p="book.detail.ts" t="Include" />
                 <e p="book.item.ts" t="Include" />
                 <e p="book.update.ts" t="Include" />
-              </e>
-              <e p="nav-menu" t="Include">
-                <e p="nav-menu.component.css" t="Include" />
-                <e p="nav-menu.component.html" t="Include" />
-                <e p="nav-menu.component.ts" t="Include" />
               </e>
               <e p="Pages" t="Include">
                 <e p="book-new" t="Include">

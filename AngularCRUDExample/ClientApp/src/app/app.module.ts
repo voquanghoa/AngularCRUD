@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
+import { NavMenuComponent } from './components/nav-menu/nav-menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { BooksComponent } from './components/books/books.component';
 import { BookCreateFormComponent } from './components/book-create-form/book-create-form.component';
