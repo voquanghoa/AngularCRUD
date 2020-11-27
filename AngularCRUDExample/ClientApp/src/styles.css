@@ -14,3 +14,11 @@ code {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+
+.container {
+  width: 600px;
+}
+
+.card-body {
+  padding: 0;
+}

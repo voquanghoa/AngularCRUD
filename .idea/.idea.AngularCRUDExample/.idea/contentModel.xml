@@ -8,6 +8,7 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="books.json" t="Include" />
         <e p="Business" t="Include">
           <e p="BookBusiness.cs" t="Include" />
         </e>
@@ -115,9 +116,31 @@
               <e p="app.component.ts" t="Include" />
               <e p="app.module.ts" t="Include" />
               <e p="app.server.module.ts" t="Include" />
-              <e p="fetch-data" t="Include">
-                <e p="fetch-data.component.html" t="Include" />
-                <e p="fetch-data.component.ts" t="Include" />
+              <e p="components" t="Include">
+                <e p="book-create-form" t="Include">
+                  <e p="book-create-form.component.css" t="Include" />
+                  <e p="book-create-form.component.html" t="Include" />
+                  <e p="book-create-form.component.spec.ts" t="Include" />
+                  <e p="book-create-form.component.ts" t="Include" />
+                </e>
+                <e p="book-update-form" t="Include">
+                  <e p="book-update-form.component.css" t="Include" />
+                  <e p="book-update-form.component.html" t="Include" />
+                  <e p="book-update-form.component.spec.ts" t="Include" />
+                  <e p="book-update-form.component.ts" t="Include" />
+                </e>
+                <e p="books" t="Include">
+                  <e p="books.component.css" t="Include" />
+                  <e p="books.component.html" t="Include" />
+                  <e p="books.component.spec.ts" t="Include" />
+                  <e p="books.component.ts" t="Include" />
+                </e>
+              </e>
+              <e p="models" t="Include">
+                <e p="book.create.ts" t="Include" />
+                <e p="book.detail.ts" t="Include" />
+                <e p="book.item.ts" t="Include" />
+                <e p="book.update.ts" t="Include" />
               </e>
               <e p="nav-menu" t="Include">
                 <e p="nav-menu.component.css" t="Include" />
@@ -125,12 +148,27 @@
                 <e p="nav-menu.component.ts" t="Include" />
               </e>
               <e p="Pages" t="Include">
+                <e p="book-new" t="Include">
+                  <e p="book-new.component.css" t="Include" />
+                  <e p="book-new.component.html" t="Include" />
+                  <e p="book-new.component.spec.ts" t="Include" />
+                  <e p="book-new.component.ts" t="Include" />
+                </e>
+                <e p="book-update" t="Include">
+                  <e p="book-update.component.css" t="Include" />
+                  <e p="book-update.component.html" t="Include" />
+                  <e p="book-update.component.spec.ts" t="Include" />
+                  <e p="book-update.component.ts" t="Include" />
+                </e>
                 <e p="home" t="Include">
                   <e p="home.component.css" t="Include" />
                   <e p="home.component.html" t="Include" />
                   <e p="home.component.spec.ts" t="Include" />
                   <e p="home.component.ts" t="Include" />
                 </e>
+              </e>
+              <e p="services" t="Include">
+                <e p="book.service.ts" t="Include" />
               </e>
             </e>
             <e p="assets" t="Include">

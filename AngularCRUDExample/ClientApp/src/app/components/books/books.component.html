@@ -1,0 +1,47 @@
+<div *ngIf="isLoading">
+  Loading ...
+</div>
+
+<div *ngIf="error">
+  {{error}}
+</div>
+
+<div *ngIf="!isLoading">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>
+          Id
+        </th>
+        <th>
+          Tên sách
+        </th>
+        <th>
+          Tác giả
+        </th>
+        <th>
+          Chỉnh sửa
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let book of books">
+        <td>{{book.id}}</td>
+        <td>{{book.name}}</td>
+        <td>{{book.author}}</td>
+        <td>
+          <a [href]="'books/' + book.id">
+            <button type="button" class="btn btn-primary">Chỉnh sửa</button>
+          </a>
+          <button type="button" class="btn btn-danger ml-1" (click)="delete(book.id)">Xóa sách</button>
+        </td>
+      </tr>
+      <tr *ngIf="books.length === 0">
+        <td [colSpan]="3">
+          Không có sách nào
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
