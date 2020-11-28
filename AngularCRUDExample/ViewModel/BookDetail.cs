@@ -1,3 +1,5 @@
+using System;
+
 namespace AngularCRUDExample.ViewModel
 {
     public class BookDetail
@@ -11,5 +13,7 @@ namespace AngularCRUDExample.ViewModel
         public string Author { get; set; }
 
         public string Description { get; set; }
+
+        public DateTime? PublishDate { get; set; }
     }
 }

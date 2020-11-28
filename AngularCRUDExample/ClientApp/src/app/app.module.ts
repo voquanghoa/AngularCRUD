@@ -12,6 +12,7 @@ import { BookCreateFormComponent } from './components/book-create-form/book-crea
 import { BookNewComponent } from './pages/book-new/book-new.component';
 import { BookUpdateFormComponent } from './components/book-update-form/book-update-form.component';
 import { BookUpdateComponent } from './pages/book-update/book-update.component';
+import { DateValuePipeAccessor } from './pipe/date.value.pipe';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BookUpdateComponent } from './pages/book-update/book-update.component';
     BookNewComponent,
     BookCreateFormComponent,
     BookUpdateFormComponent,
-    BookUpdateComponent
+    BookUpdateComponent,
+    DateValuePipeAccessor
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

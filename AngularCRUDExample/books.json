@@ -1,1 +1,1 @@
-[{"Id":1,"Name":"Life of PI","Year":1990,"Author":"Ẩn danh","Description":"Hello world"}]
+[{"Id":1,"Name":"Life of PI","Year":1990,"Author":"Ẩn danh","Description":"Hello world","PublishDate":"2020-11-28T00:00:00"},{"Id":2,"Name":"Lord of the ring 2","Year":1990,"Author":"JRR","Description":"","PublishDate":"2020-12-01T00:00:00Z"},{"Id":3,"Name":"Life of PI","Year":2000,"Author":"JRR","Description":"Hello world","PublishDate":null}]

@@ -22,6 +22,7 @@ export class BookCreateFormComponent implements OnInit {
       year: '',
       author: '',
       description: '',
+      publishDate: null
     });
   }
 

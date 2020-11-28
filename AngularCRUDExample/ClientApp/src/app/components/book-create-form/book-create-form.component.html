@@ -1,5 +1,5 @@
 <form [formGroup]="bookForm" (ngSubmit)="onSubmit(bookForm.value)">
-  <input id="id" type="hidden" formControlName="id">
+
   <div class="card">
     <div class="card-header">
       Tạo sách mới
@@ -25,6 +25,13 @@
             Tác giả
           </label>
           <input id="author" type="text" formControlName="author" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="publishDate">
+            Ngày xuất bản
+          </label>
+          <input id="publishDate" type="date" formControlName="publishDate" class="form-control">
         </div>
 
         <div class="form-group">

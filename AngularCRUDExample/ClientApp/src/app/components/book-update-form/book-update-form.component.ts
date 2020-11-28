@@ -26,13 +26,19 @@ export class BookUpdateFormComponent implements OnInit {
       year: '',
       author: '',
       description: '',
+      publishDate: null
     });
   }
 
   ngOnInit() {
     this.bookService.get(this.id)
       .subscribe(book => {
+        if(book.publishDate){
+          book.publishDate = new Date(book.publishDate);
+        }
+
         this.bookForm.patchValue(book);
+        console.log(book);
       });
   }
 
